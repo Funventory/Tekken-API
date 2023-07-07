@@ -2,6 +2,9 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const path = require('path');
+var cors = require('cors')
+
+app.use(cors()) // 모든 요청에 대해 허용, 조건을 추가할 수 있음
 
 const server = app.listen(3001,() =>{
     console.log('Start Server : localhost:3001');
