@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TekkenCommand</title>
+</head>
+
+<body>
+    <div>
+        <p>Searching Tekken7 Character </p>
+        <p>/tekkenAPI/:version/:character</p>
+        <p>EX : /tekkenAPI/7/bryan</p>
+    </div> 
+    <div>
+        <input type="text" id="characterInput" placeholder="캐릭터 검색">
+        <button onclick="fetchCharacterData()">검색</button>
+    </div>
+    </div>
+    <script>
+        function fetchCharacterData() {
+            const characterInput = document.getElementById('characterInput');
+            const character = characterInput.value;
+            fetch(`/tekkenAPI/7/${character}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error('API 호출 중 오류가 발생했습니다.', error);
+                });
+        }
+    </script>
+</body>
+
+</html>

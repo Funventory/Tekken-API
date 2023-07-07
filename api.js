@@ -6,18 +6,16 @@ const path = require('path');
 const server = app.listen(3001,() =>{
     console.log('Start Server : localhost:3001');
 })
-app.use(express.static('public'));
-app.get('/tekken/:version', async (req, res) =>{
-    let version = req.params;
-    res.sendFile(path.join(__dirname,'public','index.html'));
-})
-app.get('/tekken/:version/api/:character', async (req, res) =>{
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/tekkenAPI/:version/:character', async (req, res) =>{
     let {
         version,
         character
     } = req.params;
     character = character.toLowerCase();
-    if(character.match('characterlist')){
+    if(character.match('list')){
         console.log('characterList');
         fs.readFile(`./character${version}/characterList.json`,`utf8`,(err,data)=>{
             if(err){
