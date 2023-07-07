@@ -1,0 +1,75 @@
+{
+    "character":"nina",
+    "skill" :{
+        "nina1": {
+            "name" : "nina1",
+            "command" : "4 AP",
+            "frame" : 22,
+            "damage" : 25,
+            "hit" : "D",
+            "block" : 5,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina2":{
+            "name" : "nina2",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina3":{
+            "name" : "nina3",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina4":{
+            "name" : "nina4",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina5":{
+            "name" : "nina5",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina6":{
+            "name" : "nina6",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        },
+        "nina7":{
+            "name" : "nina7",
+            "command" : "3 RP",
+            "frame" : 15,
+            "damage" : 12,
+            "hit" : "D",
+            "block" : -14,
+            "screw" : false,
+            "powercrash" : false
+        }
+    }
+}

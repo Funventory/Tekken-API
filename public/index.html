@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TekkenCommand</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="topFrame">
+    <div class="info">
+      <p>기타 정보</p>
+    </div>
+    <div class="help">
+      <p>도움말</p>
+    </div>
+    <div class="setting">
+      <p>로그인</p>
+      <p>설정</p>
+    </div>
+  </div>
+  <div class="bottomFrame">
+    <div class="bottomLeftFrame">
+      <div class="characterSearch">
+        <input type="text" id="characterInput" placeholder="캐릭터 검색" oninput="searchCharacterInList()"
+          onkeydown="handleSearch(event)">
+        <button onclick="searchCharacter()">검색</button>
+      </div>
+      <div class="characterContainer"></div>
+    </div>
+    <div class="commandFrame">
+      <div class="searchBox">
+        <input type="text" id="searchInput" placeholder="Command를 검색" oninput="searchCommands()">
+        <button onclick="searchCommands()">검색</button>
+      </div>
+      <div class="commandList"></div>
+    </div>
+    <div class="advertisement">
+      <p>기타</p>
+    </div>
+  </div>
+  <script>
+    let commandData; // 전체 커맨드 목록을 저장할 변수
+    let characterListData;
+    function fetchCharacterData(character) {
+      fetch(`/tekken/7/api/${character}`)
+        .then(response => response.json())
+        .then(data => {
+          // 전체 커맨드 목록 업데이트
+          commandData = data;
+          console.log(commandData);
+          displayAllCommands();
+        })
+        .catch(error => {
+          console.error('API 호출 중 오류가 발생했습니다.', error);
+        });
+    }
+    function fetchCharacterList() {
+      fetch(`/tekken/7/api/characterList`)
+        .then(response => response.json())
+        .then(data => {
+          characterListData = data;
+          console.log(characterListData.name);
+          displayAllCharacters();
+        })
+        .catch(error => {
+          console.error('캐릭터 리스트 호출 중 오류가 발생했습니다.', error);
+        })
+    }
+    function searchCharacter() {
+      const characterInput = document.getElementById('characterInput');
+      const character = characterInput.value;
+      fetchCharacterData(character);
+    }
+    function searchCharacterInList() {
+      const input = document.getElementById('characterInput');
+      const searchValue = input.value.toLowerCase();
+      const characterContainer = document.querySelector('.characterContainer');
+
+      const flexContainer = document.createElement('div');
+      flexContainer.classList.add('flexContainer');
+
+      characterContainer.innerHTML = '';
+
+      if (searchValue) {
+        for (const name in characterListData.name) {
+          if (name.toLowerCase().startsWith(searchValue)) {
+            const characterBox = document.createElement('div');
+            characterBox.classList.add('characterBox');
+
+            const info = document.createElement('p');
+            info.textContent = name;
+
+            characterBox.appendChild(info);
+            characterBox.addEventListener('click', function () {
+              fetchCharacterData(name);
+            });
+
+            flexContainer.appendChild(characterBox);
+          }
+          characterContainer.appendChild(flexContainer);
+        }
+      } else {
+        displayAllCharacters();
+      }
+    }
+    function searchCommands() {
+      const input = document.getElementById('searchInput');
+      const searchValue = input.value.toLowerCase().split(' ').join('');
+      const commandList = document.querySelector('.commandList');
+
+      const flexContainer = document.createElement('div');
+      flexContainer.classList.add('flexContainer');
+      // 기존에 표시된 기술 정보 초기화
+      commandList.innerHTML = '';
+
+      if (searchValue) {
+        for (const skill in commandData.skill) {
+          if (skill.toLowerCase().includes(searchValue)) {
+            const command = commandData.skill[skill];
+
+            const skillBox = document.createElement('div');
+            skillBox.classList.add('skillBox');
+
+            const name = document.createElement('p');
+            name.textContent = command.name_en;
+            skillBox.appendChild(name);
+
+            const info_command = document.createElement('p');
+            info_command.textContent += `Command : ${command.command}`;
+            const info_frame = document.createElement('p');
+            info_frame.textContent += `Frame : ${command.frame}`;
+            skillBox.appendChild(info_command);
+            skillBox.appendChild(info_frame);
+
+            flexContainer.appendChild(skillBox);
+          }
+          commandList.appendChild(flexContainer);
+        }
+      } else {
+        displayAllCommands();
+      }
+    }
+
+    function displayAllCommands() {
+      const commandList = document.querySelector('.commandList');
+      commandList.innerHTML = '';
+      // Flex 컨테이너 요소 생성
+      const flexContainer = document.createElement('div');
+      flexContainer.classList.add('flexContainer');
+
+      for (const skill in commandData.skill) {
+        const command = commandData.skill[skill];
+
+        const skillBox = document.createElement('div');
+        skillBox.classList.add('skillBox');
+
+        const name = document.createElement('p');
+        name.textContent = command.name_en;
+        skillBox.appendChild(name);
+
+        const info_command = document.createElement('p');
+        info_command.textContent += `Command : ${command.command}`;
+        const info_frame = document.createElement('p');
+        info_frame.textContent += `Frame : ${command.frame}`;
+        skillBox.appendChild(info_command);
+        skillBox.appendChild(info_frame);
+
+        flexContainer.appendChild(skillBox);
+      }
+
+      commandList.appendChild(flexContainer);
+    }
+    function displayAllCharacters() {
+      const characterConatainer = document.querySelector('.characterContainer');
+      characterConatainer.innerHTML = '';
+
+      const flexContainer = document.createElement('div');
+      flexContainer.classList.add('flexContainer');
+      for (const name in characterListData.name) {
+        const characterBox = document.createElement('div');
+        characterBox.classList.add('characterBox');
+
+        const info = document.createElement('p');
+        info.textContent = name;
+
+        characterBox.appendChild(info);
+        characterBox.addEventListener('click', function () {
+          fetchCharacterData(name);
+        });
+
+        flexContainer.appendChild(characterBox);
+      }
+      characterConatainer.appendChild(flexContainer);
+    }
+    function handleSearch(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault(); // 기본 엔터 동작 막기
+        searchCharacter();
+      }
+    }
+    fetchCharacterList();
+  </script>
+</body>
+
+</html>

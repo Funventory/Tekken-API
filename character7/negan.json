@@ -1,0 +1,65 @@
+{
+    "character": "negan",
+    "skill": {
+        "example": {
+            "number": 1,
+            "name_en": "hammer",
+            "command": "4 AP",
+            "frame": 22,
+            "counterFrame": 0,
+            "damage": 25,
+            "hitType": "D",
+            "counterHitType" : "D",
+            "hits" : 3,
+            "hitsPosition" : "M H L",
+            "hitFrame" :[5,6,7],
+            "blockedFrame": [5,6,7],
+            "screw": false,
+            "powercrash": false
+        },
+        "blood_moon1": {
+            "number": 2,
+            "name_en": "blood_moon1",
+            "command": "3 RP",
+            "frame": 15,
+            "damage": 12,
+            "hit": "D",
+            "block": -14,
+            "screw": false,
+            "powercrash": false
+        },
+        "blood_moon2": {
+            "number": 3,
+            "name_en": "blood_moon2",
+            "command": "3 RP",
+            "frame": 15,
+            "damage": 12,
+            "hit": "D",
+            "block": -14,
+            "screw": false,
+            "powercrash": false
+        },
+        "blood_moon3": {
+            "number": 4,
+            "name_en": "blood_moon3",
+            "command": "3 RP",
+            "frame": 15,
+            "damage": 12,
+            "hit": "D",
+            "block": -14,
+            "screw": false,
+            "powercrash": false
+        },
+        "blood_moon4": {
+            "number": 1,
+            "name_en": "blood_moon4",
+            "command": "3 RP",
+            "frame": 15,
+            "damage": 12,
+            "hit": "D",
+            "block": -14,
+            "screw": false,
+            "powercrash": false
+        }
+    }
+}
