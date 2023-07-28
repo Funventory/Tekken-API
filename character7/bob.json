@@ -5,7 +5,6 @@
             "number": 1,
             "name_en": "Rage Art",
             "command": "(레이지도중) .3 12",
-            "hitsCount": 1,
             "hitPosition": "M",
             "damage": 55,
             "frame": 20,
@@ -22,8 +21,7 @@
         "RageDrive": {
             "number": 2,
             "name_en": "Rage Drive",
-            "command": "(레이지도중) .6 .6 .6 34- .6+",
-            "hitsCount": 2,
+            "command": "(레이지도중) .6 23 .6+",
             "hitPosition": "MM",
             "damage": 43,
             "frame": 26,
@@ -41,7 +39,6 @@
             "number": 3,
             "name_en": "Straight Randel",
             "command": "1 1 2",
-            "hitsCount": 3,
             "hitPosition": "HHH",
             "damage": 24,
             "frame": 10,
@@ -59,7 +56,6 @@
             "number": 4,
             "name_en": "One Two Punch",
             "command": "1 2",
-            "hitsCount": 2,
             "hitPosition": "HH",
             "damage": 17,
             "frame": 10,
@@ -77,7 +73,6 @@
             "number": 5,
             "name_en": "Fast Break",
             "command": "1 2 12",
-            "hitsCount": 3,
             "hitPosition": "HHM",
             "damage": 37,
             "frame": 10,
@@ -95,7 +90,6 @@
             "number": 6,
             "name_en": "Course Picante",
             "command": "1 3 3",
-            "hitsCount": 3,
             "hitPosition": "HLM",
             "damage": 35,
             "frame": 10,
@@ -113,7 +107,6 @@
             "number": 7,
             "name_en": "Course Sarat",
             "command": "1 4",
-            "hitsCount": 2,
             "hitPosition": "HH",
             "damage": 22,
             "frame": 10,
@@ -131,7 +124,6 @@
             "number": 8,
             "name_en": "Course Achuto",
             "command": "1 .2 4",
-            "hitsCount": 2,
             "hitPosition": "HL",
             "damage": 20,
             "frame": 10,
@@ -149,7 +141,6 @@
             "number": 9,
             "name_en": "Barista Swirl",
             "command": "2 1 4",
-            "hitsCount": 3,
             "hitPosition": "HMM",
             "damage": 38,
             "frame": 10,
@@ -167,7 +158,6 @@
             "number": 10,
             "name_en": "Croque-Monsieur",
             "command": "3 4",
-            "hitsCount": 2,
             "hitPosition": "HM",
             "damage": 31,
             "frame": 18,
@@ -185,7 +175,6 @@
             "number": 11,
             "name_en": "Sparkling Hop",
             "command": "4 3 34",
-            "hitsCount": 3,
             "hitPosition": "HMM",
             "damage": 27,
             "frame": 13,
@@ -203,7 +192,6 @@
             "number": 12,
             "name_en": "Black Poêlé",
             "command": "12 12",
-            "hitsCount": 2,
             "hitPosition": "MM",
             "damage": 38,
             "frame": 19,
@@ -221,7 +209,6 @@
             "number": 13,
             "name_en": "Circle Whopper",
             "command": ".6 2 3",
-            "hitsCount": 2,
             "hitPosition": "HM",
             "damage": 32,
             "frame": 12,
@@ -238,11 +225,10 @@
         "MerguezKickCombo": {
             "number": 14,
             "name_en": "Merguez Kick Combo",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 3 4",
+            "hitPosition": "MM",
+            "damage": 41,
+            "frame": 21,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -253,14 +239,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Spinning Linguine": {
+        "SpinningLinguine": {
             "number": 15,
             "name_en": "Spinning Linguine",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 4",
+            "hitPosition": "H",
+            "damage": 20,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -271,14 +256,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Giga Jacker": {
+        "GigaJacker": {
             "number": 16,
             "name_en": "Giga Jacker",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 12",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -289,14 +273,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Spinner Ball": {
+        "SpinnerBall": {
             "number": 17,
             "name_en": "Spinner Ball",
-            "command": "",
-            "hitsCount": ,
+            "command": ".6 34",
             "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "damage": 9,
+            "frame": -1,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -307,14 +290,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Lyonnaise Break": {
+        "LyonnaiseBreak": {
             "number": 18,
             "name_en": "Lyonnaise Break",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During Spinner Ball) 1",
+            "hitPosition": "M",
+            "damage": 18,
+            "frame": 44,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -325,14 +307,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Galette Slicer": {
+        "GaletteSlicer": {
             "number": 19,
             "name_en": "Galette Slicer",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During Spinner Ball) 2",
+            "hitPosition": "M",
+            "damage": 21,
+            "frame": 48,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -343,14 +324,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Snail Kick": {
+        "SnailKick": {
             "number": 20,
             "name_en": "Snail Kick",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During Spinner Ball) 3",
+            "hitPosition": "H",
+            "damage": 30,
+            "frame": 45,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -361,14 +341,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Stealing Home": {
+        "StealingHome": {
             "number": 21,
             "name_en": "Stealing Home",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During Spinner Ball) 4",
+            "hitPosition": "L",
+            "damage": 14,
+            "frame": 48,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -379,14 +358,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Perfect Press": {
+        "PerfectPress": {
             "number": 22,
             "name_en": "Perfect Press",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During Spinner Ball) 34",
+            "hitPosition": "M",
+            "damage": 28,
+            "frame": 54,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -397,14 +375,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Escalope Elbow": {
+        "EscalopeElbow": {
             "number": 23,
             "name_en": "Escalope Elbow",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 1 2",
+            "hitPosition": "MM",
+            "damage": 28,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -415,14 +392,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Slash Darne": {
+        "SlashDarne": {
             "number": 24,
             "name_en": "Slash Darne",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 2",
+            "hitPosition": "M",
+            "damage": 14,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -433,14 +409,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Gaufrettes Cutter": {
+        "GaufrettesCutter": {
             "number": 25,
             "name_en": "Gaufrettes Cutter",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 3 1 1",
+            "hitPosition": "MHM",
+            "damage": 42,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -451,14 +426,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Gaufrettes Punch": {
+        "GaufrettesPunch": {
             "number": 26,
             "name_en": "Gaufrettes Punch",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 3 2",
+            "hitPosition": "MH",
+            "damage": 34,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -469,14 +443,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Gaufrettes Kick": {
+        "GaufrettesKick": {
             "number": 27,
             "name_en": "Gaufrettes Kick",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 3 4",
+            "hitPosition": "MLH",
+            "damage": 40,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -487,14 +460,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Runner Flip": {
+        "RunnerFlip": {
             "number": 28,
             "name_en": "Runner Flip",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".3 34 4",
+            "hitPosition": "MMM",
+            "damage": 28,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -505,14 +477,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Coupé Chop": {
+        "CoupéChop": {
             "number": 29,
             "name_en": "Coupé Chop",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 1",
+            "hitPosition": "M",
+            "damage": 18,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -523,14 +494,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Combination Mince": {
+        "CombinationMince": {
             "number": 30,
             "name_en": "Combination Mince",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 2 1 2 2",
+            "hitPosition": "MMMM",
+            "damage": 65,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -541,14 +511,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Combination Ble": {
+        "CombinationBle": {
             "number": 31,
             "name_en": "Combination Ble",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 2 3",
+            "hitPosition": "MM",
+            "damage": 33,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -559,14 +528,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Combination Baldo": {
+        "CombinationBaldo": {
             "number": 32,
             "name_en": "Combination Baldo",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 2 4",
+            "hitPosition": "MM",
+            "damage": 33,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -577,14 +545,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Panini Sweep": {
+        "PaniniSweep": {
             "number": 33,
             "name_en": "Panini Sweep",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 3 4",
+            "hitPosition": "LH",
+            "damage": 34,
+            "frame": 19,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -595,14 +562,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Tornado Mixer": {
+        "TornadoMixer": {
             "number": 34,
             "name_en": "Tornado Mixer",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 4 3 4",
+            "hitPosition": "LHM",
+            "damage": 50,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -613,14 +579,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Apicius Special": {
+        "ApiciusSpecial": {
             "number": 35,
             "name_en": "Apicius Special",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 12 2 1",
+            "hitPosition": "HHMH",
+            "damage": 35,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -631,14 +596,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Duck Flip": {
+        "DuckFlip": {
             "number": 36,
             "name_en": "Duck Flip",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".2 34",
+            "hitPosition": "MM",
+            "damage": 26,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -649,14 +613,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Bite Uppercut": {
+        "BiteUppercut": {
             "number": 37,
             "name_en": "Bite Uppercut",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 2",
+            "hitPosition": "M",
+            "damage": 17,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -667,14 +630,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Liaison Spike": {
+        "LiaisonSpike": {
             "number": 38,
             "name_en": "Liaison Spike",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 3",
+            "hitPosition": "L",
+            "damage": 17,
+            "frame": 20,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -685,14 +647,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Contorno Farce": {
+        "ContornoFarce": {
             "number": 39,
             "name_en": "Contorno Farce",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 4 4 3 3",
+            "hitPosition": "LMHM",
+            "damage": 59,
+            "frame": 24,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -703,14 +664,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Contorno Mist": {
+        "ContornoMist": {
             "number": 40,
             "name_en": "Contorno Mist",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 4 4 4",
+            "hitPosition": "LML",
+            "damage": 29,
+            "frame": 24,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -721,14 +681,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Abats Snipe": {
+        "AbatsSnipe": {
             "number": 41,
             "name_en": "Abats Snipe",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 12",
+            "hitPosition": "M",
+            "damage": 16,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -739,14 +698,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Huile Slip": {
+        "HuileSlip": {
             "number": 42,
             "name_en": "Huile Slip",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".1 34 4",
+            "hitPosition": "LL",
+            "damage": 26,
+            "frame": 19,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -760,11 +718,10 @@
         "Ravenous": {
             "number": 43,
             "name_en": "Ravenous",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 1 2",
+            "hitPosition": "MM",
+            "damage": 31,
+            "frame": 17,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -775,14 +732,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Combination Bitter": {
+        "CombinationBitter": {
             "number": 44,
             "name_en": "Combination Bitter",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 2 2 4 4",
+            "hitPosition": "MHMH",
+            "damage": 58,
+            "frame": 13,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -793,14 +749,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Whopping Kick": {
+        "WhoppingKick": {
             "number": 45,
             "name_en": "Whopping Kick",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 3",
+            "hitPosition": "M",
+            "damage": 20,
+            "frame": 17,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -811,14 +766,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Pretzel Crush": {
+        "PretzelCrush": {
             "number": 46,
             "name_en": "Pretzel Crush",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 4 1",
+            "hitPosition": "MM",
+            "damage": 32,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -829,14 +783,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Combination Bittersweet": {
+        "CombinationBittersweet": {
             "number": 47,
             "name_en": "Combination Bittersweet",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 4 4",
+            "hitPosition": "MH",
+            "damage": 35,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -847,14 +800,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Three Star Combo": {
+        "ThreeStarCombo": {
             "number": 48,
             "name_en": "Three Star Combo",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 12 1 2",
+            "hitPosition": "MMH",
+            "damage": 50,
+            "frame": 17,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -865,14 +817,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Reverse Spinner Ball": {
+        "ReverseSpinnerBall": {
             "number": 49,
             "name_en": "Reverse Spinner Ball",
-            "command": "",
-            "hitsCount": ,
+            "command": ".4 34",
             "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "damage": 0,
+            "frame": -1,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -883,14 +834,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Reverse Duck Flip": {
+        "ReverseDuckFlip": {
             "number": 50,
             "name_en": "Reverse Duck Flip",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".7 3",
+            "hitPosition": "MM",
+            "damage": 28,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -901,14 +851,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Egg Bound": {
+        "EggBound": {
             "number": 51,
             "name_en": "Egg Bound",
-            "command": "",
-            "hitsCount": ,
+            "command": ".8 12",
             "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "damage": 0,
+            "frame": -1,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -919,14 +868,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Hatching Punch": {
+        "HatchingPunch": {
             "number": 52,
             "name_en": "Hatching Punch",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".8 12 1",
+            "hitPosition": "M",
+            "damage": 21,
+            "frame": 28,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -940,11 +888,10 @@
         "Strainer": {
             "number": 53,
             "name_en": "Strainer",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".8 34",
+            "hitPosition": "M",
+            "damage": 20,
+            "frame": 24,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -955,14 +902,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Flying Jambon": {
+        "FlyingJambon": {
             "number": 54,
             "name_en": "Flying Jambon",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 3",
+            "hitPosition": "M",
+            "damage": 20,
+            "frame": 20,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -973,14 +919,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Faisan Crow": {
+        "FaisanCrow": {
             "number": 55,
             "name_en": "Faisan Crow",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 4 4",
+            "hitPosition": "MM",
+            "damage": 32,
+            "frame": 25,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -991,14 +936,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cracker Tariata": {
+        "CrackerTariata": {
             "number": 56,
             "name_en": "Cracker Tariata",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 12 4",
+            "hitPosition": "MH",
+            "damage": 35,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1009,14 +953,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cracker Jacker": {
+        "CrackerJacker": {
             "number": 57,
             "name_en": "Cracker Jacker",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 12 12",
+            "hitPosition": "MM",
+            "damage": 40,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1027,14 +970,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Rolling Kebab": {
+        "RollingKebab": {
             "number": 58,
             "name_en": "Rolling Kebab",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 34 4",
+            "hitPosition": "LHH",
+            "damage": 42,
+            "frame": 21,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1045,14 +987,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Zip Cutter": {
+        "ZipCutter": {
             "number": 59,
             "name_en": "Zip Cutter",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6+ 2",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1063,14 +1004,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Jumping Beans": {
+        "JumpingBeans": {
             "number": 60,
             "name_en": "Jumping Beans",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6+ 3",
+            "hitPosition": "M",
+            "damage": 18,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1081,14 +1021,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Double Chapati": {
+        "DoubleChapati": {
             "number": 61,
             "name_en": "Double Chapati",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6+ 4 4",
+            "hitPosition": "MM",
+            "damage": 32,
+            "frame": 22,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1099,14 +1038,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Huitres Crush": {
+        "HuitresCrush": {
             "number": 62,
             "name_en": "Huitres Crush",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6+ 34",
+            "hitPosition": "MM",
+            "damage": 28,
+            "frame": 26,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1117,14 +1055,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Hot Cross Bun": {
+        "HotCrossBun": {
             "number": 63,
             "name_en": "Hot Cross Bun",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 .6 1",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 26,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1135,14 +1072,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Langouste Tail": {
+        "LangousteTail": {
             "number": 64,
             "name_en": "Langouste Tail",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 .4+",
+            "hitPosition": "M",
+            "damage": 20,
+            "frame": 26,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1153,14 +1089,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Grater Langouste": {
+        "GraterLangouste": {
             "number": 65,
             "name_en": "Grater Langouste",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 .4+ 34 (.1+ to cancel)",
+            "hitPosition": "!",
+            "damage": 60,
+            "frame": 71,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1171,14 +1106,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Grater Langouste Feint Knuckle": {
+        "GraterLangousteFeintKnuckle": {
             "number": 66,
             "name_en": "Grater Langouste Feint Knuckle",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 .4+ 34 2",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 57,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1189,14 +1123,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Quick Langouste": {
+        "QuickLangouste": {
             "number": 67,
             "name_en": "Quick Langouste",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".4 .4+ 23",
+            "hitPosition": "!",
+            "damage": 40,
+            "frame": 48,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1207,14 +1140,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Langue Washer": {
+        "LangueWasher": {
             "number": 68,
             "name_en": "Langue Washer",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 N .2 .3 1",
+            "hitPosition": "H",
+            "damage": 20,
+            "frame": 13,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1225,14 +1157,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Spiral Rocky": {
+        "SpiralRocky": {
             "number": 69,
             "name_en": "Spiral Rocky",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 N .2 .3 2",
+            "hitPosition": "M",
+            "damage": 29,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1243,14 +1174,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Gambero Knee": {
+        "GamberoKnee": {
             "number": 70,
             "name_en": "Gambero Knee",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 N .2 .3 3 2",
+            "hitPosition": "MH",
+            "damage": 30,
+            "frame": 16,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1261,14 +1191,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cutting Coppa": {
+        "CuttingCoppa": {
             "number": 71,
             "name_en": "Cutting Coppa",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 N .2 .3 4 12",
+            "hitPosition": "LM",
+            "damage": 33,
+            "frame": 18,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1279,14 +1208,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Granchi Canon": {
+        "GranchiCanon": {
             "number": 72,
             "name_en": "Granchi Canon",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 N .2 .3 12",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1297,14 +1225,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Perfect Slash": {
+        "PerfectSlash": {
             "number": 73,
             "name_en": "Perfect Slash",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6 .6 3",
+            "hitPosition": "M",
+            "damage": 30,
+            "frame": 20,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1315,14 +1242,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Supersize Missile": {
+        "SupersizeMissile": {
             "number": 74,
             "name_en": "Supersize Missile",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".6 .6 .6 34",
+            "hitPosition": "M",
+            "damage": 27,
+            "frame": 26,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1333,14 +1259,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cross Butcher": {
+        "CrossButcher": {
             "number": 75,
             "name_en": "Cross Butcher",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 1 2",
+            "hitPosition": "MH",
+            "damage": 31,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1351,14 +1276,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Hot Guimauve": {
+        "HotGuimauve": {
             "number": 76,
             "name_en": "Hot Guimauve",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 1 3",
+            "hitPosition": "MM",
+            "damage": 31,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1369,14 +1293,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Spinach Upper": {
+        "SpinachUpper": {
             "number": 77,
             "name_en": "Spinach Upper",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 2 1",
+            "hitPosition": "MM",
+            "damage": 22,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1387,14 +1310,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Spinach Hammer": {
+        "SpinachHammer": {
             "number": 78,
             "name_en": "Spinach Hammer",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 2 2",
+            "hitPosition": "MM",
+            "damage": 30,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1405,14 +1327,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Brioche Star": {
+        "BriocheStar": {
             "number": 79,
             "name_en": "Brioche Star",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 3 34",
+            "hitPosition": "HM",
+            "damage": 34,
+            "frame": 17,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1423,14 +1344,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Rising Matzo": {
+        "RisingMatzo": {
             "number": 80,
             "name_en": "Rising Matzo",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While rising) 12",
+            "hitPosition": "M",
+            "damage": 25,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1441,14 +1361,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Polpo Swing": {
+        "PolpoSwing": {
             "number": 81,
             "name_en": "Polpo Swing",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While crouching) .3 2 1 12",
+            "hitPosition": "MMM",
+            "damage": 51,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1459,14 +1378,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Seppia Swing": {
+        "SeppiaSwing": {
             "number": 82,
             "name_en": "Seppia Swing",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(While crouching) .3 2 4 12",
+            "hitPosition": "MLM",
+            "damage": 51,
+            "frame": 14,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1477,14 +1395,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Bánh mì Strike": {
+        "BánhMìStrike": {
             "number": 83,
             "name_en": "Bánh mì Strike",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(During sidestep) 12",
+            "hitPosition": "M",
+            "damage": 24,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1495,14 +1412,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Plague Pick": {
+        "PlaguePick": {
             "number": 84,
             "name_en": "Plague Pick",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "(Back towards enemy) .2 2",
+            "hitPosition": "M",
+            "damage": 17,
+            "frame": 15,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1513,14 +1429,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Sucre Tile": {
+        "SucreTile": {
             "number": 85,
             "name_en": "Sucre Tile",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": "1234 4",
+            "hitPosition": "!",
+            "damage": 42,
+            "frame": 72,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1531,14 +1446,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "10 Hit Combo 1": {
+        "10HitCombo1": {
             "number": 86,
             "name_en": "10 Hit Combo 1",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 2 1 2 2 1 12 3 1 2 34",
+            "hitPosition": "HHHMMMLMHM",
+            "damage": 112,
+            "frame": 20,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1549,14 +1463,13 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "10 Hit Combo 2": {
+        "10HitCombo2": {
             "number": 87,
             "name_en": "10 Hit Combo 2",
-            "command": "",
-            "hitsCount": ,
-            "hitPosition": "",
-            "damage": ,
-            "frame": ,
+            "command": ".9 2 3 34 4",
+            "hitPosition": "HLMMM",
+            "damage": 69,
+            "frame": 20,
             "hitFrame": "",
             "counterHitFrame": "",
             "blockedFrame": "",
@@ -1567,11 +1480,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Quarter Deck 1": {
+        "QuarterDeck1": {
             "number": 88,
             "name_en": "Quarter Deck 1",
             "command": "(상대방에 접근하며) 13",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 35,
             "frame": 12,
@@ -1585,11 +1497,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Quarter Deck 2": {
+        "QuarterDeck2": {
             "number": 89,
             "name_en": "Quarter Deck 2",
             "command": "(상대방에 접근하며) .6 13",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 35,
             "frame": 15,
@@ -1603,11 +1514,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cooler Shaker 1": {
+        "CoolerShaker1": {
             "number": 90,
             "name_en": "Cooler Shaker 1",
             "command": "(상대방에 접근하며) 24",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 35,
             "frame": 12,
@@ -1621,11 +1531,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Cooler Shaker 2": {
+        "CoolerShaker2": {
             "number": 91,
             "name_en": "Cooler Shaker 2",
             "command": "(상대방에 접근하며) .6 24",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 35,
             "frame": 15,
@@ -1643,7 +1552,6 @@
             "number": 92,
             "name_en": "Corkscrew",
             "command": "(왼쪽으로부터 접근하며) 13 (or 24)",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 40,
             "frame": 12,
@@ -1657,11 +1565,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Eye Opener": {
+        "EyeOpener": {
             "number": 93,
             "name_en": "Eye Opener",
             "command": "(오른쪽으로부터 접근하며) 13 (or 24)",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 40,
             "frame": 12,
@@ -1675,11 +1582,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Déglacer Throw": {
+        "DéglacerThrow": {
             "number": 94,
             "name_en": "Déglacer Throw",
             "command": "(뒤에서 접근하며) 13 (or 24)",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 50,
             "frame": 12,
@@ -1693,11 +1599,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Flying Cask": {
+        "FlyingCask": {
             "number": 95,
             "name_en": "Flying Cask",
             "command": "(상대방에 접근하며) .6 .6+ 12",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 30,
             "frame": 12,
@@ -1711,11 +1616,10 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "Sparkling Death": {
+        "SparklingDeath": {
             "number": 96,
             "name_en": "Sparkling Death",
             "command": "(몸을 숙이며) .3 .2 .3+ 12",
-            "hitsCount": 1,
             "hitPosition": "G",
             "damage": 30,
             "frame": 11,

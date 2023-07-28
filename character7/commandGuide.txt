@@ -1,0 +1,10 @@
+.숫자 : 화살표
+.숫자+ : 화살표 hold
+숫자- : 버튼 hold
+
+H : high
+M : middle
+L : low
+m : special middle
+G : grab
+g : middle grab
