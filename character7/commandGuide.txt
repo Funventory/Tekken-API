@@ -1,7 +1,7 @@
 .숫자 : 화살표
 .숫자+ : 화살표 hold
 숫자- : 버튼 hold
-
+[3 4] : 3 4 따닥
 H : high
 M : middle
 L : low
