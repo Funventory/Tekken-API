@@ -1,0 +1,17 @@
+.숫자 : 화살표
+.숫자+ : 화살표 hold
+숫자- : 버튼 hold
+[3 4] : 3 4 따닥
+H : high
+M : middle
+L : low
+m : special middle
+G : grab
+g : middle grab
+
+
+모든 표현 영어로 바꾸기
+키 이름에 띄어쓰기 넣는 버전으로
+모든 커맨드 작성후 인게임 체크
+이후 프레임 작업
+

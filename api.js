@@ -12,7 +12,7 @@ const server = app.listen(3001,() =>{
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/tekkenAPI/:version/:character', async (req, res) =>{
+app.get('/tekkenAPI/command/:version/:character', async (req, res) =>{
     let {
         version,
         character
@@ -20,7 +20,7 @@ app.get('/tekkenAPI/:version/:character', async (req, res) =>{
     character = character.toLowerCase();
     if(character.match('list')){
         console.log('characterList');
-        fs.readFile(`./character${version}/characterList.json`,`utf8`,(err,data)=>{
+        fs.readFile(`.assets/data/character${version}/characterList.json`,`utf8`,(err,data)=>{
             if(err){
                 console.error(err);
                 res.status(500).send('Internal Server Error : characterList.json');
@@ -34,7 +34,7 @@ app.get('/tekkenAPI/:version/:character', async (req, res) =>{
         console.log(`version = ${version}`);
         console.log(`character = ${character}`);
         
-        fs.readFile(`./character${version}/${character}.json`,'utf8',(err,data)=>{
+        fs.readFile(`.assets/data/character${version}/${character}.json`,'utf8',(err,data)=>{
             if(err){
                 console.error(err);
                 res.status(500).send(`Internal Server Error : ${character}.json`);

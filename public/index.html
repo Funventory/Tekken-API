@@ -7,20 +7,21 @@
 
 <body>
     <div>
-        <p>Searching Tekken7 Character </p>
-        <p>/tekkenAPI/:version/:character</p>
-        <p>EX : /tekkenAPI/7/bryan</p>
+        <p>Searching Tekken7 Character</p>
+        <p>/tekkenAPI/command/:version/:character</p>
+        <p>EX : /tekkenAPI/command/7/bryan</p>
     </div> 
     <div>
+        버전7
         <input type="text" id="characterInput" placeholder="캐릭터 검색">
-        <button onclick="fetchCharacterData()">검색</button>
+        <button onclick="fetchCharacterData(7)">검색</button>
     </div>
     </div>
     <script>
-        function fetchCharacterData() {
+        function fetchCharacterData(version) {
             const characterInput = document.getElementById('characterInput');
             const character = characterInput.value;
-            fetch(`/tekkenAPI/7/${character}`)
+            fetch(`/tekkenAPI/command/${version}/${character}`)
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
