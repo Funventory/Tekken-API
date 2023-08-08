@@ -7,14 +7,19 @@
 
 <body>
     <div>
-        <p>Searching Tekken7 Character</p>
+        <p>Searching Tekken7 Character Command</p>
         <p>/tekkenAPI/command/:version/:character</p>
         <p>EX : /tekkenAPI/command/7/bryan</p>
     </div> 
     <div>
-        버전7
+        version 7
         <input type="text" id="characterInput" placeholder="캐릭터 검색">
         <button onclick="fetchCharacterData(7)">검색</button>
+    </div>
+    <div>
+        version 8
+        <input type="text" id="characterInput" placeholder="캐릭터 검색">
+        <button onclick="fetchCharacterData(8)">검색</button>
     </div>
     </div>
     <script>
