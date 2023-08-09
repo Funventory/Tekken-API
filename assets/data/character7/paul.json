@@ -1,5 +1,7 @@
 {
     "character":"paul phoenix",
+    "stanceList" : [],
+    "version": "7.000v",
     "skill" :{
         "Rage Art": {
             "number": 1,
