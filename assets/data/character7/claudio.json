@@ -1,6 +1,7 @@
 {
     "character": "claudio serafino",
     "stanceList" : [],
+    "version": "7.000v",
     "skill": {
         "RageArt": {
             "number": 1,

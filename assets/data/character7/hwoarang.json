@@ -1,6 +1,7 @@
 {
     "character": "hwoarang",
     "stanceList" : ["Left Stance","Right Stance","Left Flamingo","Right Flamingo"],
+    "version": "7.000v",
     "skill": {
         "RageArt": {
             "number": 1,
