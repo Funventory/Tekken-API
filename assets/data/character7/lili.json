@@ -1,5 +1,5 @@
 {
-    "character": "jun kazama",
+    "character": "lili rochefort",
     "stanceList" : [],
     "version": "7.000v",
     "skill": {
@@ -21,6 +21,5 @@
             "wallBreak": false,
             "floorBreak": false
         }
-        
     }
 }

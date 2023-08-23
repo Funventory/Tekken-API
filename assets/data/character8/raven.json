@@ -1,0 +1,25 @@
+{
+    "character": "raven",
+    "stanceList" : [],
+    "version": "7.000v",
+    "skill": {
+        "RageArt": {
+            "number": 1,
+            "name_en": "Rage Art",
+            "stance" : "",
+            "command": "aaaa",
+            "hitPosition": "",
+            "damage": 0,
+            "frame": 0,
+            "hitFrame": "",
+            "counterHitFrame": "",
+            "blockedFrame": "",
+            "screw": false,
+            "powercrash": false,
+            "homing": false,
+            "wallBound": false,
+            "wallBreak": false,
+            "floorBreak": false
+        }        
+    }
+}
