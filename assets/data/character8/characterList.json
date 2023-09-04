@@ -1,10 +1,13 @@
 {
     "name": {
+        "Alisa":{},
         "Asuka": {},
         "Azucena": {},
         "Bryan": {},
         "Claudio": {},
+        "DevilJin":{},
         "Dragunov": {},
+        "Feng":{},
         "Hwoarang": {},
         "Jack-8": {},
         "Jin": {},
@@ -14,15 +17,20 @@
         "Kuma": {},
         "Lars": {},
         "Law": {},
+        "Lee": {},
         "Leo": {},
         "Leroy": {},
         "Lili": {},
         "Nina": {},
+        "Panda":{},
         "Paul": {},
         "Raven": {},
+        "Reina":{},
         "Shaheen": {},
         "Steve": {},
+        "Victor":{},
         "Xiaoyou": {},
-        "Yoshimitsu": {}
+        "Yoshimitsu": {},
+        "Zafina":{}
     }
 }
