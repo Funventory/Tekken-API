@@ -3,7 +3,7 @@
     "stanceList" : ["Left Stance","Right Stance","Left Flamingo","Right Flamingo"],
     "version": "7.000v",
     "skill": {
-        "RageArt": {
+        "Rage Art": {
             "number": 1,
             "name_en": "Rage Art",
             "stance" : "",
@@ -21,7 +21,7 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "RageDrive1": {
+        "Rage Drive 1": {
             "number": 2,
             "name_en": "Rage Drive 1",
             "stance" : "",
@@ -39,7 +39,7 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "RageDrive2": {
+        "Rage Drive 2": {
             "number": 3,
             "name_en": "Rage Drive 2",
             "stance" : "",

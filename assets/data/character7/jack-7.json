@@ -3,7 +3,7 @@
     "stanceList" : [],
     "version": "7.000v",
     "skill": {
-        "RageArt": {
+        "Rage Art": {
             "number": 1,
             "name_en": "Rage Art",
             "stance" : "",
@@ -21,7 +21,7 @@
             "wallBreak": false,
             "floorBreak": false
         },
-        "RageDrive1": {
+        "Rage Drive1": {
             "number": 2,
             "name_en": "Rage Drive",
             "stance" : "",
