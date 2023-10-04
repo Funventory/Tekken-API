@@ -1,0 +1,25 @@
+{
+    "character": "zafina",
+    "stanceList" : [],
+    "version": "7.000v",
+    "skill": {
+        "Rage Art": {
+            "number": 1,
+            "name_en": "Rage Art 작업안함",
+            "stance" : "",
+            "command": "",
+            "hitPosition": "",
+            "damage": 0,
+            "frame": 0,
+            "hitFrame": "",
+            "counterHitFrame": "",
+            "blockedFrame": "",
+            "screw": false,
+            "powercrash": false,
+            "homing": false,
+            "wallBound": false,
+            "wallBreak": false,
+            "floorBreak": false
+        }
+    }
+}
