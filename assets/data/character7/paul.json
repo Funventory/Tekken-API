@@ -1,11 +1,12 @@
 {
     "character":"paul phoenix",
-    "stanceList" : [],
+    "stanceL i st" : [],
     "version": "7.000v",
     "skill" :{
         "Rage Art": {
             "number": 1,
             "name_en": "Rage Art",
+            "stance" : "",
             "command": "(During Rage) 12",
             "hitPosition": "M",
             "damage": 55,
@@ -23,6 +24,7 @@
         "Rage Drive": {
             "number": 2,
             "name_en": "Rage Drive",
+            "stance" : "",
             "command": "(During Rage) .2 .3 .6 12",
             "hitPosition": "M",
             "damage": 60,
@@ -40,6 +42,7 @@
         "Left Right Combo": {
             "number": 3,
             "name_en": "Left Right Combo",
+            "stance" : "",
             "command": "1 2",
             "hitPosition": "HH",
             "damage": 19,
@@ -57,6 +60,7 @@
         "Reverse PDK Combo": {
             "number": 4,
             "name_en": "Reverse PDK Combo",
+            "stance" : "",
             "command": "1 4",
             "hitPosition": "HL",
             "damage": 15,
@@ -74,6 +78,7 @@
         "Jab Roundhouse": {
             "number": 5,
             "name_en": "Jab Roundhouse",
+            "stance" : "",
             "command": "2 3",
             "hitPosition": "HH",
             "damage": 33,
@@ -91,6 +96,7 @@
         "Jab Sweep": {
             "number": 6,
             "name_en": "Jab Sweep",
+            "stance" : "",
             "command": "2 .2 3",
             "hitPosition": "HL",
             "damage": 21,
@@ -108,6 +114,7 @@
         "Piston Fire": {
             "number": 7,
             "name_en": "Piston Fire",
+            "stance" : "",
             "command": "3 2",
             "hitPosition": "MH",
             "damage": 31,
@@ -125,6 +132,7 @@
         "Quick PK Smash": {
             "number": 8,
             "name_en": "Quick PK Smash",
+            "stance" : "",
             "command": ".6 2 3 1",
             "hitPosition": "HHM",
             "damage": 48,
@@ -142,6 +150,7 @@
         "Hammer of the Gods": {
             "number": 9,
             "name_en": "Hammer of the Gods",
+            "stance" : "",
             "command": ".6 12",
             "hitPosition": "M",
             "damage": 22,
@@ -159,6 +168,7 @@
         "Shoulder Tackle": {
             "number": 10,
             "name_en": "Shoulder Tackle",
+            "stance" : "",
             "command": ".6 14",
             "hitPosition": "M",
             "damage": 26,
@@ -176,6 +186,7 @@
         "Lion's Roar": {
             "number": 11,
             "name_en": "Lion's Roar",
+            "stance" : "",
             "command": ".3 1 1 2",
             "hitPosition": "MHM",
             "damage": 44,
@@ -193,6 +204,7 @@
         "Body Blow to Sway": {
             "number": 12,
             "name_en": "Body Blow to Sway",
+            "stance" : "",
             "command": ".3 1 .4+",
             "hitPosition": "M",
             "damage": 13,
@@ -210,6 +222,7 @@
         "Phoenix Wings": {
             "number": 13,
             "name_en": "Phoenix Wings",
+            "stance" : "",
             "command": ".3 3 4",
             "hitPosition": "MM",
             "damage": 31,
@@ -227,6 +240,7 @@
         "The Boot": {
             "number": 14,
             "name_en": "The Boot",
+            "stance" : "",
             "command": ".3 4",
             "hitPosition": "M",
             "damage": 21,
@@ -244,6 +258,7 @@
         "Hammer Punch": {
             "number": 15,
             "name_en": "Hammer Punch",
+            "stance" : "",
             "command": ".2 1",
             "hitPosition": "M",
             "damage": 16,
@@ -261,6 +276,7 @@
         "Hammer Punch to Power Punch": {
             "number": 16,
             "name_en": "Hammer Punch to Power Punch",
+            "stance" : "",
             "command": ".2 1 2",
             "hitPosition": "MM",
             "damage": 42,
@@ -278,6 +294,7 @@
         "Hang Over": {
             "number": 17,
             "name_en": "Hang Over",
+            "stance" : "",
             "command": ".2 1 4 2",
             "hitPosition": "MLM",
             "damage": 52,
@@ -295,6 +312,7 @@
         "Bone Breaker": {
             "number": 18,
             "name_en": "Bone Breaker",
+            "stance" : "",
             "command": ".2 4 2",
             "hitPosition": "LM",
             "damage": 29,
@@ -312,6 +330,7 @@
         "Demolition Man": {
             "number": 19,
             "name_en": "Demolition Man",
+            "stance" : "",
             "command": ".2 4 2 12",
             "hitPosition": "LMM",
             "damage": 41,
@@ -329,6 +348,7 @@
         "Shoulder Smash": {
             "number": 20,
             "name_en": "Shoulder Smash",
+            "stance" : "",
             "command": ".2 12",
             "hitPosition": "M",
             "damage": 30,
@@ -346,6 +366,7 @@
         "Shoot the Moon": {
             "number": 21,
             "name_en": "Shoot the Moon",
+            "stance" : "",
             "command": ".1 2",
             "hitPosition": "M",
             "damage": 21,
@@ -363,6 +384,7 @@
         "Double Axe Swing": {
             "number": 22,
             "name_en": "Double Axe Swing",
+            "stance" : "",
             "command": ".4 1 2",
             "hitPosition": "HH",
             "damage": 33,
@@ -380,6 +402,7 @@
         "Crushing Wind": {
             "number": 23,
             "name_en": "Crushing Wind",
+            "stance" : "",
             "command": ".4 2 1",
             "hitPosition": "MM",
             "damage": 44,
@@ -397,6 +420,7 @@
         "Lights Out": {
             "number": 24,
             "name_en": "Lights Out",
+            "stance" : "",
             "command": ".4 3",
             "hitPosition": "H",
             "damage": 16,
@@ -414,6 +438,7 @@
         "Leg Sweep": {
             "number": 25,
             "name_en": "Leg Sweep",
+            "stance" : "",
             "command": ".4 4",
             "hitPosition": "L",
             "damage": 14,
@@ -431,6 +456,7 @@
         "Hassou Strike": {
             "number": 26,
             "name_en": "Hassou Strike",
+            "stance" : "",
             "command": ".4 12",
             "hitPosition": "H",
             "damage": 28,
@@ -448,6 +474,7 @@
         "Wrecking Bal": {
             "number": 27,
             "name_en": "Wrecking Ball",
+            "stance" : "",
             "command": ".7 2",
             "hitPosition": "M",
             "damage": 22,
@@ -465,6 +492,7 @@
         "Mortar Punch": {
             "number": 28,
             "name_en": "Mortar Punch",
+            "stance" : "",
             "command": ".9 2",
             "hitPosition": "M",
             "damage": 35,
@@ -482,6 +510,7 @@
         "Shredder": {
             "number": 29,
             "name_en": "Shredder",
+            "stance" : "",
             "command": ".9 3 4",
             "hitPosition": "MM",
             "damage": 28,
@@ -499,6 +528,7 @@
         "Juggernaut": {
             "number": 30,
             "name_en": "Juggernaut",
+            "stance" : "",
             "command": ".6 .6+ 2 1",
             "hitPosition": "MM",
             "damage": 34,
@@ -516,6 +546,7 @@
         "Phoenix Bone Breaker": {
             "number": 31,
             "name_en": "Phoenix Bone Breaker",
+            "stance" : "",
             "command": ".6 .6+ 2 (during hit) 1",
             "hitPosition": "MH",
             "damage": 38,
@@ -533,6 +564,7 @@
         "Bulldozer": {
             "number": 32,
             "name_en": "Bulldozer",
+            "stance" : "",
             "command": ".6 .6+ 2 2",
             "hitPosition": "ML",
             "damage": 35,
@@ -550,6 +582,7 @@
         "Double Hop Kick High": {
             "number": 33,
             "name_en": "Double Hop Kick High",
+            "stance" : "",
             "command": ".6 .6+ 3 4 4",
             "hitPosition": "MMH",
             "damage": 27,
@@ -567,6 +600,7 @@
         "Triple Kick Combo": {
             "number": 34,
             "name_en": "Triple Kick Combo",
+            "stance" : "",
             "command": ".6 .6+ 3 4 .6 4",
             "hitPosition": "MMM",
             "damage": 27,
@@ -584,6 +618,7 @@
         "Double Hop Kick Low": {
             "number": 35,
             "name_en": "Double Hop Kick Low",
+            "stance" : "",
             "command": ".6 .6+ 3 4 .2 4",
             "hitPosition": "MML",
             "damage": 27,
@@ -601,6 +636,7 @@
         "Neutron Bomb": {
             "number": 36,
             "name_en": "Neutron Bomb",
+            "stance" : "",
             "command": ".6 .6+ 4",
             "hitPosition": "M",
             "damage": 20,
@@ -618,6 +654,7 @@
         "Burning Spear": {
             "number": 37,
             "name_en": "Burning Spear",
+            "stance" : "",
             "command": ".4 .6 1",
             "hitPosition": "H",
             "damage": 22,
@@ -635,6 +672,7 @@
         "Burning Fist": {
             "number": 38,
             "name_en": "Burning Fist",
+            "stance" : "",
             "command": ".4 .4+ 12(.8 .8 to cancel)",
             "hitPosition": "!",
             "damage": 80,
@@ -652,6 +690,7 @@
         "Thruster": {
             "number": 39,
             "name_en": "Thruster",
+            "stance" : "",
             "command": ".2 .3 .6 1",
             "hitPosition": "H",
             "damage": 21,
@@ -669,6 +708,7 @@
         "Phoenix Smasher": {
             "number": 40,
             "name_en": "Phoenix Smasher",
+            "stance" : "",
             "command": ".2 .3 .6 2",
             "hitPosition": "M",
             "damage": 60,
@@ -686,6 +726,7 @@
         "Gengetsu": {
             "number": 41,
             "name_en": "Gengetsu",
+            "stance" : "",
             "command": ".2 .3 .6 3",
             "hitPosition": "L",
             "damage": 17,
@@ -703,6 +744,7 @@
         "Mountain Raze": {
             "number": 42,
             "name_en": "Mountain Raze",
+            "stance" : "",
             "command": ".2 .3 .6 34",
             "hitPosition": "M",
             "damage": 30,
@@ -720,6 +762,7 @@
         "Sway": {
             "number": 43,
             "name_en": "Sway",
+            "stance" : "",
             "command": ".2 .1 .4",
             "hitPosition": "",
             "damage": 0,
@@ -737,6 +780,7 @@
         "God Hammer Punch": {
             "number": 44,
             "name_en": "God Hammer Punch",
+            "stance" : "",
             "command": ".2 .1 .4 1",
             "hitPosition": "M",
             "damage": 24,
@@ -754,6 +798,7 @@
         "Rubber Band Attack": {
             "number": 45,
             "name_en": "Rubber Band Attack",
+            "stance" : "",
             "command": ".2 .1 .4 2",
             "hitPosition": "M",
             "damage": 31,
@@ -771,6 +816,7 @@
         "Sway and Low Kick": {
             "number": 46,
             "name_en": "Sway and Low Kick",
+            "stance" : "",
             "command": ".2 .1 .4 3",
             "hitPosition": "L",
             "damage": 14,
@@ -788,6 +834,7 @@
         "Rapid Fire to Phoenix Smasher": {
             "number": 47,
             "name_en": "Rapid Fire to Phoenix Smasher",
+            "stance" : "",
             "command": ".2 .1 .4 3 2 1",
             "hitPosition": "LMH",
             "damage": 59,
@@ -805,6 +852,7 @@
         "Rapid Fire to Lightning Bolt": {
             "number": 48,
             "name_en": "Rapid Fire to Lightning Bolt",
+            "stance" : "",
             "command": ".2 .1 .4 3 2 3",
             "hitPosition": "LML",
             "damage": 49,
@@ -822,6 +870,7 @@
         "Kawaragoma": {
             "number": 49,
             "name_en": "Kawaragoma",
+            "stance" : "",
             "command": ".2 .1 .4 4",
             "hitPosition": "H",
             "damage": 28,
@@ -839,6 +888,7 @@
         "Higaku": {
             "number": 50,
             "name_en": "Higaku",
+            "stance" : "",
             "command": ".2 .1 .4 12",
             "hitPosition": "M",
             "damage": 22,
@@ -856,6 +906,7 @@
         "Thunder Palm": {
             "number": 51,
             "name_en": "Thunder Palm",
+            "stance" : "",
             "command": "(While rising) 2",
             "hitPosition": "M",
             "damage": 20,
@@ -873,6 +924,7 @@
         "Shioh": {
             "number": 52,
             "name_en": "Shioh",
+            "stance" : "",
             "command": "(While rising) 3 2",
             "hitPosition": "MH",
             "damage": 37,
@@ -890,6 +942,7 @@
         "Gunba": {
             "number": 53,
             "name_en": "Gunba",
+            "stance" : "",
             "command": "(While crouching) .3 12",
             "hitPosition": "L",
             "damage": 20,
@@ -907,6 +960,7 @@
         "Incomplete Somersault": {
             "number": 54,
             "name_en": "Incomplete Somersault",
+            "stance" : "",
             "command": "(While crouching) .2+ (1sec) .8 34",
             "hitPosition": "MM",
             "damage": 48,
@@ -924,6 +978,7 @@
         "Turn Thruster": {
             "number": 55,
             "name_en": "Turn Thruster",
+            "stance" : "",
             "command": "(During sidestep) 1",
             "hitPosition": "H",
             "damage": 23,
@@ -941,6 +996,7 @@
         "Pump in Pedal": {
             "number": 56,
             "name_en": "Pump in Pedal",
+            "stance" : "",
             "command": "(During sidestep) 3",
             "hitPosition": "L",
             "damage": 18,
@@ -958,6 +1014,7 @@
         "Down Strike": {
             "number": 57,
             "name_en": "Down Strike",
+            "stance" : "",
             "command": "(While enemy is down) .2 2",
             "hitPosition": "L",
             "damage": 16,
@@ -975,6 +1032,7 @@
         "10 Hit Combo 1": {
             "number": 58,
             "name_en": "10 Hit Combo 1",
+            "stance" : "",
             "command": "1 2 3 2 1 2 1 4 2 1",
             "hitPosition": "HHMHMHHLMM",
             "damage": 87,
@@ -992,6 +1050,7 @@
         "10 Hit Combo 2": {
             "number": 59,
             "name_en": "10 Hit Combo 2",
+            "stance" : "",
             "command": "1 2 3 1 4 2 1 4 2 1",
             "hitPosition": "HHMMLMHMLM",
             "damage": 90,
@@ -1009,6 +1068,7 @@
         "10 Hit Combo 3": {
             "number": 60,
             "name_en": "10 Hit Combo 3",
+            "stance" : "",
             "command": "1 2 3 1 2",
             "hitPosition": "HHMMM",
             "damage": 65,
@@ -1026,6 +1086,7 @@
         "Over The Shoulder 1": {
             "number": 61,
             "name_en": "Over The Shoulder 1",
+            "stance" : "",
             "command": "(Approach enemy) 13",
             "hitPosition": "G",
             "damage": 35,
@@ -1043,6 +1104,7 @@
         "Over The Shoulder 2": {
             "number": 62,
             "name_en": "Over The Shoulder 2",
+            "stance" : "",
             "command": "(Approach enemy) .6 13",
             "hitPosition": "G",
             "damage": 35,
@@ -1060,6 +1122,7 @@
         "Shoulder Pop 1": {
             "number": 63,
             "name_en": "Shoulder Pop 1",
+            "stance" : "",
             "command": "(Approach enemy) 24",
             "hitPosition": "G",
             "damage": 35,
@@ -1077,6 +1140,7 @@
         "Shoulder Pop 2": {
             "number": 64,
             "name_en": "Shoulder Pop 2",
+            "stance" : "",
             "command": "(Approach enemy) .6 24",
             "hitPosition": "G",
             "damage": 35,
@@ -1094,6 +1158,7 @@
         "Dragon Screw": {
             "number": 65,
             "name_en": "Dragon Screw",
+            "stance" : "",
             "command": "(Approach from left side) 13 (or 24)",
             "hitPosition": "G",
             "damage": 45,
@@ -1111,6 +1176,7 @@
         "Fall Away": {
             "number": 66,
             "name_en": "Fall Away",
+            "stance" : "",
             "command": "(Approach from right side) 13 (or 24)",
             "hitPosition": "G",
             "damage": 40,
@@ -1128,6 +1194,7 @@
         "Reverse Neck Throw": {
             "number": 67,
             "name_en": "Reverse Neck Throw",
+            "stance" : "",
             "command": "(Approach from behind) 13 (or .6 13)",
             "hitPosition": "G",
             "damage": 50,
@@ -1145,6 +1212,7 @@
         "Piggyback Throw": {
             "number": 68,
             "name_en": "Piggyback Throw",
+            "stance" : "",
             "command": "(Approach from behind) 24 (or .6 24)",
             "hitPosition": "G",
             "damage": 50,
@@ -1162,6 +1230,7 @@
         "Chest Crusher": {
             "number": 69,
             "name_en": "Chest Crusher",
+            "stance" : "",
             "command": "(Approach enemy) 24 .4+",
             "hitPosition": "G",
             "damage": 40,
@@ -1179,6 +1248,7 @@
         "Twist and Shout": {
             "number": 70,
             "name_en": "Twist and Shout",
+            "stance" : "",
             "command": "(Approach enemy) .3 12",
             "hitPosition": "G",
             "damage": 40,
@@ -1196,6 +1266,7 @@
         "Kongo Blast": {
             "number": 71,
             "name_en": "Kongo Blast",
+            "stance" : "",
             "command": "(Approach enemy)  .3 13 .2 .3 .6 2",
             "hitPosition": "GM",
             "damage": 35,
@@ -1213,6 +1284,7 @@
         "Foot Launch": {
             "number": 72,
             "name_en": "Foot Launch",
+            "stance" : "",
             "command": "(Approach enemy) .4 14",
             "hitPosition": "G",
             "damage": 40,
@@ -1230,6 +1302,7 @@
         "Push Away": {
             "number": 73,
             "name_en": "Push Away",
+            "stance" : "",
             "command": "(Approach enemy) .6 .6+ 12",
             "hitPosition": "G",
             "damage": 38,
@@ -1247,6 +1320,7 @@
         "Ultimate Tackle": {
             "number": 74,
             "name_en": "Ultimate Tackle",
+            "stance" : "",
             "command": ".1 12",
             "hitPosition": "g",
             "damage": 5,
@@ -1264,6 +1338,7 @@
         "Ultimate Punch to Arm Breaker": {
             "number": 75,
             "name_en": "Ultimate Punch to Arm Breaker",
+            "stance" : "",
             "command": "(During tackle) 2 1 2 12",
             "hitPosition": "g",
             "damage": 45,
@@ -1281,6 +1356,7 @@
         "Ultimate Punch": {
             "number": 76,
             "name_en": "Ultimate Punch",
+            "stance" : "",
             "command": "(During tackle) 2 1 2 1",
             "hitPosition": "g",
             "damage": 35,
@@ -1298,6 +1374,7 @@
         "Ultimate Punishment": {
             "number": 77,
             "name_en": "Ultimate Punishment",
+            "stance" : "",
             "command": "(During tackle) 2 .2+ 1 1 N 4 1 12",
             "hitPosition": "g",
             "damage": 61,
@@ -1315,6 +1392,7 @@
         "Arm Breaker": {
             "number": 78,
             "name_en": "Arm Breaker",
+            "stance" : "",
             "command": "(During tackle) 12",
             "hitPosition": "g",
             "damage": 30,
@@ -1332,6 +1410,7 @@
         "Attack Reversal": {
             "number": 79,
             "name_en": "Attack Reversal",
+            "stance" : "",
             "command": "(Time with enemy attack) .4 13 (or .4 24)",
             "hitPosition": "",
             "damage": 25,
