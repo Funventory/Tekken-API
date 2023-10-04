@@ -10,23 +10,17 @@
         <p>Searching Tekken7 Character Command</p>
         <p>/tekkenAPI/command/:version/:character</p>
         <p>EX : /tekkenAPI/command/7/bryan</p>
-    </div> 
     <div>
         version 7
         <input type="text" id="characterInput" placeholder="캐릭터 검색">
-        <button onclick="fetchCharacterData(7)">검색</button>
-    </div>
-    <div>
-        version 8
-        <input type="text" id="characterInput" placeholder="캐릭터 검색">
-        <button onclick="fetchCharacterData(8)">검색</button>
-    </div>
+        <button onclick="fetchCharacterData()">검색</button>
     </div>
     <script>
-        function fetchCharacterData(version) {
+        function fetchCharacterData() {
             const characterInput = document.getElementById('characterInput');
+
             const character = characterInput.value;
-            fetch(`/tekkenAPI/command/${version}/${character}`)
+            fetch(`/tekkenAPI/command/7/${character}`)
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
